@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+}
+
+h1 {
+    display: none;
+
+}
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ff9933;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+    padding: 0.65em 3em;
+}
+
+nav a:hover{
+    background-color: #c27629;
+    color:#fff
+}
+
+#logo_area {
+    background-image: url(../img/fundo_logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1em;   
+}
+
+#logo_area h2{
+    color: #ff9933;
+    text-shadow: -2px -2px 0 #361a0c,
+                 -2px -2px 0 #361a0c,
+                 -2px -2px 0 #361a0c,
+                 -2px -2px 0 #361a0c;
+}
+
+#banner{
+    background-color: #000;
+    display: flex;
+    color:#fff;
+    justify-content: space-between;
+}
+
+#banner p{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#banner img{
+    margin: 10px 0 10px 0;
+}
+
+.banner_destaque{
+    font-size: 4em;
+    font-family:'Janda Manatee Solid', 'Londrina Solid', cursive; 
+    color: #a70000;
+    -webkit-text-stroke: 4px #ffcc00;
+}
+
+#hamburgueres{
+    background-color: #361a0c;
+    padding: 2em 0;
+}
+
+#hamburgueres h2{
+    color: #ff9933;
+    text-shadow: -2px -2px 0 #a70000,
+                 -2px -2px 0 #a70000,
+                 -2px -2px 0 #a70000,
+                 -2px -2px 0 #a70000;
+     margin-bottom: 2em;            
+}
+
+#hamburgueres a{
+    color: #ff9933;
+    font-weight: bold;
+}
+section{
+    text-align: center;
+}
+
+
+
+section> a {
+    display:block;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.flex-grupo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #a70000;
+  font-family:'Janda Manatee Solid', 'Londrina Solid', cursive;  
+  }
+
+  .flex-grupo> div{
+      background-color: #ff9933
+  }
+
+.flex-grupo > div > p{
+    height: 1.5;
+}
+
+.flex-grupo > div > p:nth-child(odd){
+    font-weight: bold;
+    font-size: 2.5em;
+}
+  
+.flex-grupo> div > p:nth-child(even){
+    font-weight: bold;
+    font-size: 5em;
+    margin-top: -0.5em;
+    text-shadow: -3px -3px 0 #ff9933,
+                  3px  -3px 0 #ff9933,
+                 -3px 3px 0 #ff9933,
+                  3px 3px 0 #ff9933;
+}
+    
+  #shakes h2{
+      columns: #361a0c;
+      text-shadow:-2px -2px 0 #ff9933,
+                   2px  -2px 0 #ff9933,
+                  -2px -2px 0 #ff9933, 
+                   2px  2px 0 #ff9933;
+      margin-bottom: 2em;            
+  }
+  #shakes p{
+    color: #a70000;
+    text-shadow: -3px -3px 0 #ff9933,
+                  3px  -3px 0 #ff9933,
+                 -3px -3px 0 #ff9933, 
+                  3px  3px 0 #ff9933;             
+
+}
+
+#shakes a{
+    color: #361a06;
+    font-weight: bolder;
+}
+
+#historia{
+    background-color: #a70000;
+    text-align: left;
+}
+.historia_conteudo{
+display: flex;
+max-width: 1230px;
+margin: 0 auto;
+align-items: center;
+text-align: right;
+}
+.historia_conteudo h2{
+    margin-right: 2em;
+    text-align: left;
+    color: #361a06;
+    text-shadow: -2px -2px 0 #ff9933,
+                  2px -2px 0 #ff9933,
+                 -2px  2px 0 #ff9933,
+                  2px  2px 0 #ff9933;
+                 
+
+}
+.historia_conteudo p{
+    text-align: left;
+    color:#fff
+}
+.historia_conteudo a{
+    color:#fff;
+    
+}
+
+#local iframe{
+    width: 100%;
+    height: 500px;
+}
+footer{
+    background:#ff9933;
+}
+address{
+    color: #a70000;
+    font-weight: bolder;
+    text-align: center
+}
+
+
+
+
+
+
